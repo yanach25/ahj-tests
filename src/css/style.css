@@ -1,0 +1,55 @@
+.cards img {
+  margin-right: 6px;
+  width: 45px;
+}
+
+.search {
+  margin-top: 16px;
+  position: relative;
+}
+
+.search button {
+  margin-left: 2px;
+}
+
+.none {
+  display: none;
+}
+
+.validation-result {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+.blur {
+  filter: blur(1px) grayscale(1);
+}
+
+.notifier {
+  font-size: 12px;
+  background: black;
+  color: white;
+  position: absolute;
+  top: 25px;
+  left: 26px;
+}
+
+.notifier:after {
+  content: '';
+  position: absolute;
+  left: 94px;
+  bottom: 14px;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 6px solid black;
+}
