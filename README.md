@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/si3xso9kig5m21mo?svg=true)](https://ci.appveyor.com/project/yanach25/ahj-env)
+[![Build status](https://ci.appveyor.com/api/projects/status/toffj4eig8ri56t5?svg=true)](https://ci.appveyor.com/project/yanach25/ahj-tests)
