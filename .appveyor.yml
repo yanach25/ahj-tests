@@ -6,8 +6,8 @@ install:
 build: off
 build_script:
   - yarn run build # команда сборки
-#test_script:
-#  - yarn run lint && yarn test # скрипт тестирования
+test_script:
+ - yarn run lint && yarn test # скрипт тестирования
 deploy_script: # скрипт развёртывания
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
